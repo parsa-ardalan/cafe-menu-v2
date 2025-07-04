@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "category": "Hot Drinks",
+    "imageLink": "/images/main/coffee.png",
+    "slug": "hot-drinks"
+  },
+  {
+    "id": 2,
+    "category": "Cold Drinks",
+    "imageLink": "/images/main/mohito.png",
+    "slug": "cold-drinks"
+  },
+  {
+    "id": 3,
+    "category": "Cakes",
+    "imageLink": "/images/main/cake.png",
+    "slug": "cakes"
+  }
+]

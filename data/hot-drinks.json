@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "name": "product name",
+    "imageLink": "/images/folder/image1.png",
+    "delivery": 5,
+    "description": "short description of the product"
+  },
+  {
+    "id": 1,
+    "name": "product name",
+    "imageLink": "/images/folder/image2.png",
+    "delivery": 5,
+    "description": "short description of the product"
+  },
+  {
+    "id": 2,
+    "name": "product name",
+    "imageLink": "/images/folder/image3.png",
+    "delivery": 5,
+    "description": "short description of the product"
+  },
+  {
+    "id": 3,
+    "name": "product name",
+    "imageLink": "/images/folder/image4.png",
+    "delivery": 5,
+    "description": "short description of the product"
+  }
+]
