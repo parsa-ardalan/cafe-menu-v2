@@ -1,6 +1,10 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import Item from "./Item";
+
 export default function Items() {
 
   const router = useRouter();
@@ -25,8 +29,24 @@ export default function Items() {
 
     <div className="h-screen w-screen backdrop-blur-xs backdrop-brightness-50">
 
-      <h1>Page for items: {slug}</h1>
-    
+      <Swiper
+        spaceBetween={50}
+        slidesPerView={1}
+        onSlideChange={() => console.log('slide changed')}
+        onSwiper={(swiper) => console.log(swiper)}>
+
+        {
+          data.map((item) => (
+
+            <SwiperSlide  key={item.id} className='h-screen w-screen flex'>
+              <Item key={item?.id} name={item?.name} delivery={item?.delivery} info={item?.description} image={item?.imageLink} />
+            </SwiperSlide>
+          ))
+        }
+
+
+      </Swiper>
+
     </div>
   );
 }
