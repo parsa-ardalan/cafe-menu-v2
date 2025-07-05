@@ -36,14 +36,21 @@ export default function Items() {
         onSwiper={(swiper) => console.log(swiper)}>
 
         {
+
           data.map((item) => (
 
-            <SwiperSlide  key={item.id} className='h-screen w-screen flex'>
-              <Item key={item?.id} name={item?.name} delivery={item?.delivery} info={item?.description} image={item?.imageLink} />
+            <SwiperSlide key={item.id} className='h-screen w-screen'>
+
+              <Item key={item?.id} name={item?.name}
+                delivery={item?.delivery}
+                info={item?.description}
+                image={item?.imageLink}
+                price={item?.price} size={item?.size}
+                tag1={item?.tag1} tag2={item?.tag2} tag3={item?.tag3} />
+
             </SwiperSlide>
           ))
         }
-
 
       </Swiper>
 

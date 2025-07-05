@@ -1,30 +1,50 @@
 [
   {
     "id": 0,
-    "name": "product name",
+    "name": "Roubusta",
+    "price": 3.00,
     "imageLink": "/images/hot-drinks/coffee.png",
     "delivery": 5,
-    "description": "short description of the product"
+    "size": "medium",
+    "description": "short description of the product",
+    "tag1": "drinks",
+    "tag2": "coffee",
+    "tag3": "hot"
   },
   {
     "id": 1,
-    "name": "product name",
+    "name": "Latte",
+    "price": 4.99,
     "imageLink": "/images/hot-drinks/coffee.png",
-    "delivery": 5,
-    "description": "short description of the product"
+    "delivery": 7,
+    "size": "medium",
+    "description": "short description of the product",
+    "tag1": "drinks",
+    "tag2": "coffee",
+    "tag3": "hot"
   },
   {
     "id": 2,
-    "name": "product name",
+    "name": "Arabica",
+    "price": 3.00,
     "imageLink": "/images/hot-drinks/coffee.png",
     "delivery": 5,
-    "description": "short description of the product"
+    "size": "medium",
+    "description": "short description of the product",
+    "tag1": "drinks",
+    "tag2": "coffee",
+    "tag3": "hot"
   },
   {
     "id": 3,
-    "name": "product name",
+    "name": "Hot chocolate",
+    "price": 6.99,
     "imageLink": "/images/hot-drinks/coffee.png",
-    "delivery": 5,
-    "description": "short description of the product"
+    "delivery": 10,
+    "size": "medium",
+    "description": "short description of the product",
+    "tag1": "drinks",
+    "tag2": "chocolate",
+    "tag3": "hot"
   }
 ]

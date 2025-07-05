@@ -28,23 +28,23 @@ export default function Header(props) {
 
             </div>
 
-            {/* text */}
+            {/* name of product */}
 
             <div className="h-auto">
                 <h1 className="font-bold text-xl ml-8 mt-3"> {props?.name} </h1>
             </div>
 
-            {/* mocks */}
+            {/* tags */}
 
             <div className="h-2/5 mt-1">
 
                 <span className="text-sm ml-8"> categories </span>
 
-                <div className="grid grid-cols-7 h-2/4 px-10 py-2 gap-4">
+                <div className="grid grid-cols-10 h-2/4 px-10 py-2 gap-4">
 
-                    <button className="col-span-2 w-auto bg-black rounded-2xl shadow-md shadow-black text-stone-400 justify-center text-sm"> coffee </button>
-                    <button className="col-span-2 w-auto bg-black rounded-2xl shadow-md shadow-black text-stone-400 justify-center text-sm"> drinks </button>
-                    <button className="col-span-3 w-auto bg-black rounded-2xl shadow-md shadow-black text-stone-400 justify-center text-sm"> hot drinks </button>
+                    <div className="col-span-3 w-auto bg-black rounded-2xl shadow-md shadow-black text-stone-400 text-center text-sm"> {props?.tag1} </div>
+                    <div className="col-span-4 w-auto bg-black rounded-2xl shadow-md shadow-black text-stone-400 text-center text-sm"> {props?.tag2} </div>
+                    <div className="col-span-3 w-auto bg-black rounded-2xl shadow-md shadow-black text-stone-400 text-center text-sm"> {props?.tag3} </div>
 
                 </div>
 

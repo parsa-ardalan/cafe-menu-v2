@@ -1,30 +1,50 @@
 [
   {
     "id": 0,
-    "name": "product name",
-    "imageLink": "/images/cakes/cake.png",
+    "name": "chocolate cake",
+    "price": 4.99,
+    "imageLink": "/images/cakes/chocolate-cake.png",
     "delivery": 5,
-    "description": "short description of the product"
+    "size": "small peice",
+    "description": "short description of the product",
+    "tag1": "cakes",
+    "tag2": "chocolate",
+    "tag3": "sweet"
   },
   {
     "id": 1,
-    "name": "product name",
-    "imageLink": "/images/cakes/cake.png",
+    "name": "apple pie",
+    "price": 3.5,
+    "imageLink": "/images/cakes/apple-pie.png",
     "delivery": 5,
-    "description": "short description of the product"
+    "size": "small peice",
+    "description": "short description of the product",
+    "tag1": "cakes",
+    "tag2": "fruit",
+    "tag3": "sweet"
   },
   {
     "id": 2,
-    "name": "product name",
-    "imageLink": "/images/cakes/cake.png",
+    "name": "creamy cake",
+    "price": 4.00,
+    "imageLink": "/images/cakes/creamy-cake.png",
     "delivery": 5,
-    "description": "short description of the product"
+    "size": "small peice",
+    "description": "short description of the product",
+    "tag1": "cakes",
+    "tag2": "cream",
+    "tag3": "sweet"
   },
   {
     "id": 3,
-    "name": "product name",
-    "imageLink": "/images/cakes/cake.png",
+    "name": "clafutis",
+    "price": 7.5,
+    "imageLink": "/images/cakes/clafutis.png",
     "delivery": 5,
-    "description": "short description of the product"
+    "size": "small peice",
+    "description": "short description of the product",
+    "tag1": "cakes",
+    "tag2": "fruit",
+    "tag3": "sweet"
   }
 ]
