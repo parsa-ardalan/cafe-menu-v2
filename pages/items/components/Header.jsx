@@ -31,7 +31,7 @@ export default function Header(props) {
             {/* name of product */}
 
             <div className="h-auto">
-                <h1 className="font-bold text-xl ml-8 mt-3 text-stone-500"> {props?.name} </h1>
+                <h1 className="font-bold text-xl ml-8 mt-3 text-stone-300"> {props?.name} </h1>
             </div>
 
             {/* tags */}
@@ -42,9 +42,9 @@ export default function Header(props) {
 
                 <div className="grid grid-cols-10 h-2/4 px-10 py-2 gap-4">
 
-                    <div className="col-span-3 w-auto text-stone-500 rounded-2xl shadow-md shadow-black text-stone-400 text-center text-sm"> {props?.tag1} </div>
-                    <div className="col-span-4 w-auto text-stone-500 rounded-2xl shadow-md shadow-black text-stone-400 text-center text-sm"> {props?.tag2} </div>
-                    <div className="col-span-3 w-auto text-stone-500 rounded-2xl shadow-md shadow-black text-stone-400 text-center text-sm"> {props?.tag3} </div>
+                    <div className="col-span-3 w-auto text-stone-500 rounded-2xl shadow-md shadow-black text-stone-300 text-center text-sm"> {props?.tag1} </div>
+                    <div className="col-span-4 w-auto text-stone-500 rounded-2xl shadow-md shadow-black text-stone-300 text-center text-sm"> {props?.tag2} </div>
+                    <div className="col-span-3 w-auto text-stone-500 rounded-2xl shadow-md shadow-black text-stone-300 text-center text-sm"> {props?.tag3} </div>
 
                 </div>
 
