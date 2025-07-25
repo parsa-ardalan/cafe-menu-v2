@@ -38,18 +38,18 @@ export default function Main(props) {
             <div className="col-span-2 mt-2">
 
                 <div>
-                    <h1 className="text-black mt-1 ml-10 text-sm"> size </h1>
-                    <h2 className="text-black font-bold text-md ml-10"> {props?.size} </h2>
+                    <h1 className="text-black mt-1 ml-10 text-sm text-stone-500"> size </h1>
+                    <h2 className="text-black font-bold text-md ml-10 text-stone-500"> {props?.size} </h2>
                 </div>
 
                 <div>
-                    <h1 className="text-black mt-1 ml-10 text-sm"> delivery </h1>
-                    <h2 className="text-black font-bold text-md ml-10"> {props?.delivery} min </h2>
+                    <h1 className="text-black mt-1 ml-10 text-sm text-stone-500"> delivery </h1>
+                    <h2 className="text-black font-bold text-md ml-10 text-stone-500"> {props?.delivery} min </h2>
                 </div>
 
                 <div>
-                    <h1 className="text-black mt-1 ml-10 text-sm"> price </h1>
-                    <h2 className="text-black font-bold text-md ml-10"> {props?.price}$ </h2>
+                    <h1 className="text-black mt-1 ml-10 text-sm text-stone-500"> price </h1>
+                    <h2 className="text-black font-bold text-md ml-10 text-stone-500"> {props?.price}$ </h2>
                 </div>
 
             </div>
@@ -66,9 +66,9 @@ export default function Main(props) {
 
             <div className="col-span-4 w-3/4 grid grid-cols-5 ml-3 py-2 gap-1 mt-6">
 
-                <button className="col-span-1 bg-black text-sm outline-0 outline-black rounded-md border h-full" onClick={decrease}> <span className="text-white"> - </span> </button>
-                <span className="col-span-1 h-full text-center text-black"> {def} </span>
-                <button className="col-span-1 bg-black text-sm outline-0 outline-black rounded-md border h-full" onClick={increase}> <span className="text-white"> + </span> </button>
+                <button className="col-span-1 shadow shadow-stone-500 text-sm outline-0 outline-black rounded-md h-full" onClick={decrease}> <span className="text-white"> - </span> </button>
+                <span className="col-span-1 h-full text-center text-black text-stone-500"> {def} </span>
+                <button className="col-span-1 shadow shadow-stone-500 text-sm outline-0 outline-black rounded-md h-full" onClick={increase}> <span className="text-white"> + </span> </button>
             </div>
 
         </div>

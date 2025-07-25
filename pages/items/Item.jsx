@@ -14,7 +14,7 @@ export default function Item(props) {
 
         <div className='h-screen w-screen flex items-center justify-center md:w-1/4'>
 
-            <div className="w-3/4 h-4/6 my-auto mx-auto rounded-2xl backdrop-blur-sm backdrop-brightness-90">
+            <div className="w-3/4 h-4/6 my-auto mx-auto rounded-2xl backdrop-brightness-90 shadow shadow-white">
 
                 <Header name={props?.name} tag1={props?.tag1} tag2={props?.tag2} tag3={props?.tag3} />
 
