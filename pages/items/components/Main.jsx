@@ -58,7 +58,11 @@ export default function Main(props) {
             {/* image codes */}
 
             <div className="col-span-2 ml-0 mt-4">
-                <img src={props?.image} className="fixed rounded-full h-44 w-44 justify-self-end" alt="product image" />
+                <img
+                    src={props?.image}
+                    className="animation-spin fixed rounded-full h-44 w-44 animate-spin duration-10000"
+                    alt="product image"
+                />
             </div>
 
 
