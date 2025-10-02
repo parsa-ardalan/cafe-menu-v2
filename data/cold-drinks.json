@@ -32,7 +32,7 @@
     "size": "large",
     "description": "short description of the product",
     "tag1": "drinks",
-    "tag2": "straw berry",
+    "tag2": "berry",
     "tag3": "cold"
   },
   {
@@ -44,7 +44,7 @@
     "size": "large",
     "description": "short description of the product",
     "tag1": "drinks",
-    "tag2": "blue berry",
+    "tag2": "berry",
     "tag3": "cold"
   }
 ]
